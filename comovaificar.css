@@ -1,0 +1,68 @@
+body {
+    background-color: #156236;
+}
+
+header {
+    color: white;
+    text-align: center;
+
+}
+.esquerda {
+    background-color: rgb(174, 0, 255);
+    height: 60px;
+    width: 1000px;
+    position:relative;
+    left: 100px;
+    padding: 20px; /* é a parte de dentro do bloco*/
+    border-radius: 10px;
+    font-size: 20px;
+}
+.direita {
+    background-color: rgb(65, 183, 204);
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    top: 80px;
+    right: 100px;
+    padding: 20px;
+    border-radius: 10px;
+  
+}
+
+h2 {
+    text-align: center;
+}
+article {
+    background-color: rgb(64, 96, 167);
+    display: block;
+    margin-left: 100px;
+    width: 900px;
+    height: 280px;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+    border-radius: 10px;
+}
+
+aside{
+    background-color: rgb(87, 189, 87);
+    display: block;
+    height: 280px;
+    width: 240px;
+    margin-left: 1050px;
+    position: absolute;
+    top: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+footer {
+    background-color:white;
+    text-align: center;
+    font: 18px;
+    padding: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
